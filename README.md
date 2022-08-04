@@ -19,7 +19,7 @@
 </h1>
 
 <h1 align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" url="./images/thankspage.png" />
+  <img alt="NextLevelWeek" title="#NextLevelWeek" url="./images/thanks page.png" />
 </h1>
 
 
