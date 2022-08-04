@@ -20,6 +20,10 @@
 <h1 align="center">
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./images/cadastro.png" />
 </h1>
+<h1 align="center">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./images/thanks page.png" />
+</h1>
+
 
 
 
