@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> Página de Cadastro </title>
+      <link rel="stylesheet" href="./style/cadastro.css">
+      <script src="./scripts/scripts.js"></script>
+      <link rel="shortcut icon" href="./images/book-stack.png" type="image/x-icon">
+   </head>
+   <body>
+      <div class="container">
+         <!-- Criação da div onde será inserida um form -->
+         <p id="txt1">Bem-vindo a página de cadastro!</p>
+         <!-- Title do container -->
+         <p id="txt2">Cadastre-se para ter melhor controle do seu tempo e estudos.</p>
+         <!-- Mensagem  -->
+         <form action="#" method="post" id="form">
+            <p class="txt">Digite seu nome </p>
+            <input type="text" name="nome" id="nome" placeholder="Ex.: Júlia Amorim" class="input" required>
+            <p class="txt">Nos conte sua data de aniversário</p>
+            <input type="date" name="birth" id="birth" placeholder="03/05/2004" class="input" required> 
+            <p class="txt">Digite seu email</p>
+            <input type="email" name="Email" id="email" placeholder="Ex.: amorim@gmail.com" class="input" required> 
+            <p class="txt">Digite o nome de usuário desejado</p>
+            <input type="text" name="usuario" id="usuario" placeholder="Ex.: Amorimju" class="input" required>
+            <p class="txt">Escolha sua senha</p>
+            <input type="password" name="senha" id="senha" placeholder="Senha"  class="input" required> <br>
+         </form>
+         <br> 
+         <button onclick="window.location.href = 'file:///C:/Users/julia/OneDrive/Área%20de%20Trabalho/projeto%20integrador/thankspage.html' "id="registrar">Finalizar cadastro</button>
+      </div>
+   </body>
+</html>

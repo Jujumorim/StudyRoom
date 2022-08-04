@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> Página de login</title>
+      <link rel="stylesheet" href="./style/loginpage.css">
+      <script src="./scripts/scripts.js"></script>
+      <link rel="shortcut icon" href="./images/book-stack.png" type="image/x-icon">
+   </head>
+   <body>
+      <div class="container">
+         <!-- Criação da div onde será inserida um form -->
+         <p id="txt1">Bem-vindo de volta!</p>
+         <!-- Title do container -->
+         <p id="txt2">Faça login para acessar seu painel, configurações e projetos.</p>
+         <!-- Mensagem  -->
+         <form action="#" method="post" id="form">
+            <p id="txt3">Usuário</p>
+            <input type="text" name="usuario" class="input" required placeholder="Digite seu nome de usuário">
+            <p id="txt4">Senha</p>
+            <input type="password" name="senha" class="input" required  placeholder="Digite sua senha"> <br>
+            <br> <label class="container">
+            <input type="checkbox" checked="checked">
+            </label> Manter-se conectado <br>
+            <br><button type="submit" id="enviar">Entrar</button>
+         </form>
+         <br>
+         <button onclick="window.location.href = 'file:///C:/Users/julia/OneDrive/Área%20de%20Trabalho/projeto%20integrador/pagedecadastro.html'" id="registrar">Fazer cadastro</button>
+      </div>
+   </body>
+</html>
