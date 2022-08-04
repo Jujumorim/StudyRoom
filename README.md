@@ -1,5 +1,5 @@
 # StudyRoom
-## Desenvolvimento de projeto com conceitos de HTML, CSS E JavaScript
+## Desenvolvimento de projeto com conceitos de HTML, CSS e JavaScript voltado a gerenciamento de tempo e estudos.
 
 
 📌 Conteúdo
